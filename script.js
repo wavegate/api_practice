@@ -109,4 +109,10 @@ document.getElementById("await").addEventListener("click", () => {
     searchPokemon(search.value, "await");
 });
 
+search.addEventListener("keydown", function (event) {
+    if (event.code === "Enter") {
+        searchPokemon(search.value, "ajax");
+    }
+})
+
 log.style.paddingTop = `${nav.offsetHeight}px`;
