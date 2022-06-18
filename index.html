@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Practice</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="nav">
+        <label for="search" id="search-label">Search pokemon name:</label>
+        <input id="search" value="pikachu" type="text">
+        <div id="cachingElement">
+            <label for="uncache">Prevent caching?</label>
+            <input type="checkbox" name="uncache" id="uncache">
+        </div>
+        <div id="buttons">
+            <a id="ajax">AJAX</a>
+            <a id="promise">Promise</a>
+            <a id="await">Await</a>
+        </div>
+    </nav>
+    <div id="log"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
