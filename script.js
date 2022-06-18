@@ -28,7 +28,7 @@ function printTable() {
         newRow.appendChild(cell);
     }
     log.appendChild(newRow);
-    newRow.scrollIntoView();
+    newRow.scrollIntoView({behavior:'smooth'});
 }
 
 function printImage(stuff) {
